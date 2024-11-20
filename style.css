@@ -1,0 +1,168 @@
+/* General Reset */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+.header {
+    background: #2A3663;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.header .logo {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Dancing Script", cursive;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 20px;
+    font-family: "Playfair Display", serif;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f4a261;
+}
+
+/* Hero Section */
+.hero {
+    /* text-align: center; */
+    height: 600px;
+    padding-top: 200px;
+    padding: 200px 150px;
+    background: #FAF6E3;
+    color: #2A3663;
+    background-size: cover;
+    background: url(image4.jpg);
+    background-attachment: fixed;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-family: "Dancing Script", cursive;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+}
+
+.hero .btn {
+    display: inline-block;
+    background: #2A3663;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background 0.3s;
+    border-radius: 20px;
+}
+
+.hero .btn:hover {
+    background: #2A3663;
+}
+
+/* Section Styles */
+section {
+    padding: 60px 20px;
+}
+
+.about, .projects, .services, .contact {
+    background: #f9f9f9;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2A3663;
+    font-family: "Dancing Script", cursive;
+    font-size: 40px;
+}
+
+/* Projects */
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-item {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.project-item h3 {
+    margin-bottom: 10px;
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background: #2A3663;
+    color: #fff;
+    padding: 10px 0;
+}
+.container p {
+    font-family: math;
+    text-align: justify;
+}
+.about1{
+    margin: 0px 200px;
+    text-align: justify;
+}
+
+ul,li{
+    font-family: "Dancing Script", cursive;
+    font-size: 25px;
+}
+.image{
+    filter: invert(0);
+    height: 200px;
+    float: right;
+    border-radius: 110px;
+    border: 2px solid rgb(151, 132, 132);
+}
+.video{
+    margin-left: 20rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
